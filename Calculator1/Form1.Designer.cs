@@ -58,6 +58,7 @@ namespace Calculator1
             this.btCong.TabIndex = 1;
             this.btCong.Text = "+";
             this.btCong.UseVisualStyleBackColor = true;
+            this.btCong.Click += new System.EventHandler(this.btCong_Click);
             // 
             // txtA
             // 
